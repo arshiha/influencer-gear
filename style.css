@@ -1,0 +1,38 @@
+/* text style--------
+---------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* first text style------------
+-------------- */
+section{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+    margin-top: 150px;
+}
+.zoom:hover {
+    transform: scale(1.1); 
+}
+.half-width img{
+    width: 440px;
+    height: 414px;
+    margin-left: 235px;
+    margin-top: 30px;
+    padding-right: 400px;
+}
+h1{
+    font-size: 40px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: white;
+    font-weight: 700;
+    
+}
