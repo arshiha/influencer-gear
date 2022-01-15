@@ -6,8 +6,17 @@ body{
 }
 /* first text style------------
 -------------- */
+
+/* body{
+    overflow-x: hidden;
+} */
+html{
+    overflow-x: hidden;
+    
+}
 section{
     display: flex;
+   
 }
 .half-width{
     width: 50%;
@@ -53,10 +62,12 @@ h1{
     background-color: white;
     box-shadow: 10px;
     
+    
 }
 .course .course-banner img{
     width: 300px;
-    height: 256px;   
+    height: 256px;  
+     
 }
 .course-info{
     display: flex;
@@ -72,3 +83,28 @@ h1{
 .fa-star.empty{
     color: #AEAEAE;
 }
+
+
+/* last style */
+
+.banner-section{
+    margin-left: 450px;
+    margin-top: 200px;
+}
+.banner-title{
+    margin-top: 1300px;  
+    width: 900px;
+}
+.banner-title img{
+    width: 400px; 
+    margin-bottom: 620px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #E02C6D;
+    padding: 1px 15px;
+    border-radius: 41px;
+    color: white;
+    font-weight: 700;
+}
+
