@@ -16,6 +16,8 @@ html{
 }
 section{
     display: flex;
+    
+
    
 }
 .half-width{
@@ -48,8 +50,8 @@ h1{
 
 
 
-.section-title{
-    margin-top: 200px;  
+.title-1{
+    text-align: center;  
 }
 
 .courses{
